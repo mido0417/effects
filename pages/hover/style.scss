@@ -1,0 +1,6 @@
+img {
+  display: none;
+  @include respond-to(mobile) {
+    display: block;
+  }
+}

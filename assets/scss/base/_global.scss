@@ -1,0 +1,24 @@
+* {
+  font-family: 'Noto Sans', sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  @include respond-to(laptop) {
+    max-width: 1200px;
+  }
+}

@@ -1,0 +1,18 @@
+// We can use all of the Breakpoint control variables with respond-to as well!
+// 使用方式：在需要的css插入 @include respond-to(尺寸名){}
+
+
+$breakpoint-no-query-fallbacks: true;
+$breakpoint-to-ems: true;
+@include add-breakpoint(mobile, (480px)); // 480以上包含480
+@include add-breakpoint(pad, (768px)); // 768以上包含768
+@include add-breakpoint(laptop, (1200px)); // 1200以上包含1200
+@include add-breakpoint(pc, (1440px)); // 1440以上包含1440
+
+// font
+$base-unit: rem;
+$base-font-size: 16px;
+$base-line-height: 24px;
+$line-height-method: ratio;
+$base-line-height-ratio: 1.5;
+$font-size: ( xl: 32px, 28px: 28px, 25px: 25px, l: 24px, 20px: 20px, 18px: 18px, m: 16px, 15px: 15px, 14px: 14px, s: 12px, );
