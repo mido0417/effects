@@ -40,7 +40,7 @@ module.exports = {
       },
       {
         rel: 'stylesheet',
-        href: '/css/css.css'
+        href: '/css/reset.css'
       },
       {
         rel: 'stylesheet',
