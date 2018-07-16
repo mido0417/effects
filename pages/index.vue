@@ -10,7 +10,6 @@ label
       h1 Aegean Sea<br>
         span.nightText Night Sky
         span.dayText Day Sky
-      
     .allstars
       .star1
       .star2
